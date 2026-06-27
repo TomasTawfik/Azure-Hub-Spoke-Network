@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualNetworks_Hup_Vnet_name": {
+            "value": null
+        },
+        "virtualNetworks_Vnet_One_name": {
+            "value": null
+        },
+        "azureFirewalls_Hub_Firewall_name": {
+            "value": null
+        },
+        "routeTables_RT_Spoke_Egress_name": {
+            "value": null
+        },
+        "networkSecurityGroups_NSG_DB_name": {
+            "value": null
+        },
+        "networkSecurityGroups_NSG_App_name": {
+            "value": null
+        },
+        "networkSecurityGroups_NSG_Web_name": {
+            "value": null
+        },
+        "publicIPAddresses_Firewall_PIP_name": {
+            "value": null
+        },
+        "firewallPolicies_Hub_Firewall_Policy_name": {
+            "value": null
+        },
+        "publicIPAddresses_public_ip_formanagment_name": {
+            "value": null
+        }
+    }
+}
